@@ -1,0 +1,17 @@
+server:
+  port: 7900
+spring:
+  application:
+    name: dm-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+          username: 18758554564@163.com
+          password: qwe123456
+          search-paths: config-file
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:123456@localhost:8761/eureka/
