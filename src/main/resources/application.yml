@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/weiminyuan/dm-config-center.git
           username: 18758554564@163.com
           password: qwe123456
           search-paths: config-file
